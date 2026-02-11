@@ -1,6 +1,7 @@
+const question = 
 document.querySelectorAll(".question");
 
-question.array.forEach(question => {
+question.forEach(question => {
     question.addEventListener("click", () =>{
         const answer = question.nextElementSibling;
 
